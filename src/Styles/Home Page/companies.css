@@ -1,0 +1,30 @@
+.company-logo-scroll-container {
+    overflow: hidden;
+  }
+  
+  .company-logo-scroll-content {
+    display: flex;
+    animation: scrollAnimation 20s linear infinite;
+  }
+  
+  .company-logo {
+    width: 100px;
+    height: auto;
+    margin: 0 5rem;
+  }
+
+  @media (max-width: 500px) {
+    .company-logo {
+        margin: 0 2rem;
+      }    
+  }
+  
+  @keyframes scrollAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

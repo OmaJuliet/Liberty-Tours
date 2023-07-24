@@ -1,0 +1,142 @@
+.product-section {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3.5rem;
+  }
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+
+  .slick-list {
+    margin: 0 -10px;
+  }
+  
+  /* .card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 400px;
+    color: #000;
+    cursor: pointer;
+  } */
+
+  .card {
+    position: relative;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 400px;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .card-top {
+    position: relative;
+  }
+  
+  .card-top img {
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40%;
+    height: 20%;
+    background-color: rgba(215, 213, 213, 0.7);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .overlay-content {
+    color: #000;
+  }
+  
+  .overlay-content h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .overlay-content p {
+    margin: 0;
+  }
+  
+  
+  .card-top h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 15px;
+  }
+  
+  .card-top > img {
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+  }
+
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .controls button {
+    width: 40px;
+    height: 40px;
+    border: 0; 
+    background-color: #527eed;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .controls button:hover {
+    background-color: #4475F2;
+  }
+  
+  .controls button:nth-child(1) {
+    margin-right: 1.5rem;
+  }
+
+  
+  @media (max-width: 500px) {
+    .product-section {
+        margin-top: 2.7rem;
+        width: 85%;
+      }
+  }
+
+  @media (width: 540px) {
+    .product-section {
+        margin-top: 5rem;
+      }
+      .card-top > img {
+        height: 140px;
+      }
+  }
+
+  @media (min-width: 767px ) and (max-width: 914px) {
+    .product-section {
+      margin-top: 5rem;
+    }
+  }
+
+  @media (width: 1280px )  {
+    .product-section {
+      margin-top: 4.5rem;
+    }
+    
+  }
+

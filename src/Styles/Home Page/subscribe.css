@@ -1,0 +1,99 @@
+.subscribe {
+    max-width: 1200px;
+    margin-top: 0.2rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    margin: auto;
+  }
+  .subscribe .subscribe-inner {
+    position: relative;
+    top: -4rem;
+    min-height: 22rem;
+    border-radius: 1.5rem;
+    background-color: #4475F2;
+    /* border: 2px solid rgb(56, 56, 56); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .domain .subscribe-inner::before {
+    width: 100%;
+    height: 100%;
+  }
+  .subscribe .subscribe-inner > * {
+    position: relative;
+    z-index: 10;
+  }
+  .subscribe .subscribe-inner .subscribe-heading {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .subscribe .subscribe-inner .subscribe-lead {
+    color: rgba(255, 255, 255, 0.711);
+  }
+  .subscribe .subscribe-inner .subscribe-search {
+    width: 50%;
+    position: relative;
+  }
+  .subscribe .subscribe-inner .subscribe-search .search-input {
+    width: 100%;
+    font-family: inherit;
+    padding: 1rem 6.75rem 1rem 1.75rem;
+    border-radius: 1.5rem;
+    border: 0;
+    outline: none;
+    color: gray;
+  }
+  .subscribe .subscribe-inner .subscribe-search .search-input::placeholder {
+    color: rgb(81, 80, 80);
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+  .subscribe .subscribe-inner .subscribe-search .search-button {
+    display: block;
+    width: fit-content;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 1.5rem;
+    outline: none;
+    border: 0;
+    position: absolute;
+    margin-top: 0.6rem;
+    margin-right: 0.7rem;
+    top: 0;
+    right: 0;
+    padding: 0.5rem 1.5rem;
+    color: #ffffff;
+    background-color: #4475F2;
+  }
+
+  .subscribe .subscribe-inner .subscribe-search .search-button:hover {
+    background: white;
+    color: #4475F2;
+    border: 1px solid #4475F2;
+  }
+
+
+  @media (max-width: 500px) {
+    .subscribe {
+      margin-top: 2rem;
+    }
+    .subscribe .subscribe-inner {
+      padding: 1.5rem;
+    }
+    .subscribe .subscribe-inner .subscribe-heading {
+      font-size: 25px;
+    }
+    .subscribe .subscribe-inner .subscribe-search {
+      width: 100%;
+      position: relative;
+    }
+    .subscribe .subscribe-inner .subscribe-search .search-input {
+      width: 100%;
+    }
+    .subscribe .subscribe-inner .subscribe-search .search-button {
+      padding: 0.5rem;
+    }
+  }
