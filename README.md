@@ -10,7 +10,7 @@ This is a food ordering DESKTOP web application. It is NOT optimized for mobile 
 
 
 ## Web App UI
-![Liberty Travels: liberty travels app design](Prime-cuisine-ui.png) 
+![Liberty Travels: liberty travels app design](liberty-tours-ui.png) 
 
 
 ## Technologies, Libraries and Packages Used
@@ -30,6 +30,12 @@ This is a food ordering DESKTOP web application. It is NOT optimized for mobile 
 
 ## App Features
 
+- Home page: The homepage is the default page where users can view everything about the app, the features, gallery blog and so on.
+- Registration and Login page: Viewers are however restricted from viewing or interacting with the app's main page until they succesfully register and login to the app. The app was authenticated using Firebase.
+- Main Page: After succesfully logging in, users are navigated to the main page. This main page contains all tour destinations available to users. The destination consists of details about the tour site such as images of the site, small info about the site, coordinates, price of the tour. This dstinations have all been categorized into different areas like sub-locations, marks and prices.
+- Users can click on any of the tour destination cards to view ore details about the destination site and purchase ticket for the tour. They get to choose number of tickets for purchase, their preferred date and time for the tour. 
+- Users having picked their desired tour destination, selected number of tickets and date & time for the tour, can then go ahead to make payment for the tour destination chosen. Paystack API was integrated into the app to provide a payment getway for users to be able to pay for the tickets.
+- Tour booked successfully after purchase. 
 
 
 ## Pages🔍
@@ -43,7 +49,7 @@ This is a food ordering DESKTOP web application. It is NOT optimized for mobile 
 ## App Links 
 Production Link: ()
 
-Project Github Repo Link: ()
+Project Github Repo Link: (https://github.com/OmaJuliet/Liberty-Tours.git)
 
 
 ## Get it on your local machine
