@@ -6,7 +6,7 @@
 
 ## About The Project 
 
-This is a food ordering DESKTOP web application. It is NOT optimized for mobile view. It grants user access to their dashboard where they can place order from different varieties of dishes, view and edit their profile, get to chat with the app's Sales Rep and get answers to their questions through the FAQ section, configure settings.
+This is a touring agency web application. It is best optimized for desktop view. This app was built to handle the Liberty Tours Agency online operations. Liberty Tours is into the business of taking interested tourists and visitors on tours around some parts of Africa. 
 
 
 ## Web App UI
