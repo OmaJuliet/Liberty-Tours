@@ -1,6 +1,6 @@
 # PROJECT DOCUMENTATION
 
-# LIBERTY TRAVELS: TOUR AGENCY WEB APPLICATION
+# LIBERTY TOURS: TOUR AGENCY WEB APPLICATION
 ### This is a responsive web application. Best viewed on desktop.
 
 
@@ -10,7 +10,7 @@ This is a touring agency web application. It is best optimized for desktop view.
 
 
 ## Web App UI
-![Liberty Travels: liberty travels app design](liberty-tours-ui.png) 
+![Liberty Tours: liberty tours app design](liberty-tours.png) 
 
 
 ## Technologies, Libraries and Packages Used
