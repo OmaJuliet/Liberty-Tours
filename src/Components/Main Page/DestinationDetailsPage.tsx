@@ -161,10 +161,6 @@ const DestinationDetailsPage = () => {
               {validationError && <p className="text-red-500">{validationError}</p>}
               <section className="flex">
                 <button
-                  // onClick={() => {
-                  //   setValidationError(null);
-                  //   handleTicketPurchase();
-                  // }}
                   onClick={handleTicketPurchase}
                   className="w-full p-4 text-xl bg-brandColor rounded-xl text-white hover:bg-white hover:border-2 hover:border-brandColor hover:text-brandColor">
                   Purchase Ticket(s)

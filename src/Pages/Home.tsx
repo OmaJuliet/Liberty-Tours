@@ -13,18 +13,20 @@ import Subscribe from "../Components/Home Page/Subscribe";
 const Home = () => {
   return (
     <>
-      <NavBarContextProvider>
-        <Navbar />
-        <Hero />
-        <Partner />
-        <Reserve />
-        <Features />
-        <GalleryBlog />
-        <Testimonial />
-        <Faq />
-        <Subscribe />
-        <Footer />
-      </NavBarContextProvider>
+      <section className="overflow-hidden">
+        <NavBarContextProvider>
+          <Navbar />
+          <Hero />
+          <Partner />
+          <Reserve />
+          <Features />
+          <GalleryBlog />
+          <Testimonial />
+          <Faq />
+          <Subscribe />
+          <Footer />
+        </NavBarContextProvider>
+      </section>
     </>
   )
 }

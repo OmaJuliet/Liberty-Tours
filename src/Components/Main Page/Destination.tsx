@@ -279,7 +279,7 @@ const Destination = () => {
               disabled={currentPage === 1}
               onClick={handlePrevPage}
             >
-              Prev
+             Prev 
             </button>
             <button
               className="py-2 px-4 mx-1 bg-blue-400 text-white rounded-lg hover:bg-blue-500"

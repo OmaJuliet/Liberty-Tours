@@ -80,7 +80,7 @@ const TourData = [
     id: 8,
     name: 'Lake Bunyonyi',
     location: 'Uganda',
-    image: '../MainPage Images/destination/lake-Bunyonyi.jpg',
+    image: '../MainPage Images/destination/lake_Bunyonyi.jpg',
     category: 'East Africa',
     price: '$1000',
     info: "Lake Bunyonyi ('Place of many little birds') is in south-western Uganda between Kisoro and Kabale,[6] and it is close to the border with Rwanda. The lake appeared from 2004 to 2009 on the USh 5,000/= note under the title 'Lake Bunyonyi and terraces'. The lake is about 22 km long and 6 km at its widest and at a height of about 1973 m.",

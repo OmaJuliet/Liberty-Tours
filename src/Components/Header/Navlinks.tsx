@@ -26,7 +26,7 @@ const NavLinks = () => {
       <section onClick={toggleNavBar}>
         <div className="md:hidden fixed top-10 right-14 hover:cursor-pointer">
           {isNavbarOpen ? (
-            <FaTimes className="font-light text-black text-2xl" />
+            <FaTimes className="font-light text-white text-2xl" />
           ) : (
             ""
           )}
