@@ -10,7 +10,6 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import { createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import { auth } from '../firebase';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
-import { useContext } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

@@ -1,5 +1,5 @@
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { useState, useEffect, useContext } from 'react';
+import { useState, useEffect } from 'react';
 import { signOut, onAuthStateChanged, User } from "firebase/auth";
 import { auth } from '../../firebase';
 import { useNavigate } from "react-router-dom";

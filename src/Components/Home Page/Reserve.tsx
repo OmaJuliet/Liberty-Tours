@@ -65,7 +65,7 @@ const Reserve = () => {
                     <div className="w-96 h-96 lg:w-96 md:w-32 lg:ml-0 ml-8 md:ml-12 lg:mt-0 mt-8" data-aos="fade-up-left" data-aos-duration="2000">
                         <div className="bg-white lg:w-full w-72 h-96 rounded-lg shadow-2xl flex justify-center">
                             <div className="flex flex-col">
-                                <img src={greece} className="lg:w-80 w-60 h-52 rounded-lg mt-4" />
+                                <img src={greece} className="lg:w-80 w-60 h-52 rounded-lg mt-4" alt="vacation site" />
                                 <h2 className="mt-2 font-semibold text-lg">Trip to Greece  🚗</h2>
                                 <div className="flex flex-row divide-x-2 mt-2 mb-4">
                                     <p>25-August-2023</p>

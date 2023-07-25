@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Link } from "react-router-dom";
 import signup1 from "../Assets/Images/gallery1.png";
 import signup2 from "../Assets/Images/gallery2.png";
 import signup3 from "../Assets/Images/gallery4.png";

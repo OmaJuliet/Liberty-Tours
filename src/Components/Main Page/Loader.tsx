@@ -9,8 +9,8 @@ const override: CSSProperties = {
 };
 
 function App() {
-  let [loading, setLoading] = useState(true);
-  let [color, setColor] = useState("#4475F2");
+  let [loading] = useState(true);
+  let [color] = useState("#4475F2");
 
   return (
     <div className="sweet-loading mt-12">

@@ -7,7 +7,6 @@ import NotFound from './NotFound';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FaArrowLeft, FaStar } from "react-icons/fa";
-import { usePaystackPayment } from 'react-paystack';
 
 
 const DestinationDetailsPage = () => {

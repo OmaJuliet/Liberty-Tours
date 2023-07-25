@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import TourData from '../../Data/tourData';
-import { FaFilter, FaSearch, FaTimes } from 'react-icons/fa';
+import { FaFilter, FaSearch } from 'react-icons/fa';
 import { IoIosArrowDown } from "react-icons/io";
 import { useNavigate } from 'react-router-dom';
 
