@@ -18,10 +18,10 @@ This is a touring agency web application. It is best optimized for desktop view.
 - React.js
 - Typescript
 - CSS and Tailwindcss for styling
-- Firebase for Authentication
+- Firebase for Authentication and Deployment
 - React-Paystack Integration for payments
 - React-icons and Router
-- AOS for animation
+- AOS and Framer motion for animation
 - React-slick-carousel library for sliding animations
 - React-Spinners for loading animation
 - React-Datepicker for displaying dates and time

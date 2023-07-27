@@ -12,11 +12,11 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className="fixed w-full md:px-2 lg:px-12 lg:sticky md:sticky top-0 z-50  bg-white shadow-sm border-b-[1px] border-[#d0d0d0] md:bordertransparent">
+      <nav className="fixed w-full md:px-2 lg:px-12 lg:sticky md:sticky top-0 z-50 lg:bg-none bg-white">
         <section className="justify-between px-4 mx-auto lg:max-w-9xl md:items-center md:flex md:px-4">
           <section>
             <div className="flex items-center justify-between py-1 md:py-2 lg:py-0 md:block ">
-              <div className="w-[70px] h-[70px] md:w-[110px] lg:w-[170px] lg:h-[100px] md:h-[70px]">
+              <div className="w-[70px] h-[70px] md:w-[110px] lg:w-[170px] lg:h-[130px] md:h-[70px]">
                 <img src={logo} alt="Liberty Tours logo" className="w-full h-full" />
               </div>
               <div className="md:hidden">
