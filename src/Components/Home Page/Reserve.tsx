@@ -17,13 +17,13 @@ const Reserve = () => {
     return (
         <>
             <section className="container lg:px-32 px-4 lg:py-12 py-8 mx-auto flex flex-wrap">
-                <section className="flex flex-col w-full mb-4 lg:px-24 px-6" data-aos="fade-up-right" data-aos-duration="2000">
+                <section className="flex flex-col w-full mb-4 lg:px-24 xl:px-2 px-6" data-aos="fade-up-right" data-aos-duration="2000">
                     <h1 className="sm:text-3xl text-2xl mb-2 text-black font-semibold">Make a <span className="text-brandColor">Reservation</span></h1>
                     <p className="text-base">Book your next trip in 3 easy steps!</p>
                 </section>
 
-                <section className="flex lg:flex-row md:flex-row flex-wrap w-full">
-                    <div className="lg:w-3/5 lg:ml-24 ml-2 md:w-1/2 lg:pr-24 md:pr-1 md:py-6" data-aos="fade-up-right" data-aos-duration="2000">
+                <section className="flex lg:flex-row md:flex-row xl:flex-row flex-wrap w-full">
+                    <div className="lg:w-3/5 lg:ml-24 xl:ml-2 ml-2 md:w-1/2 lg:pr-24 md:pr-1 xl:pr-1 md:py-6" data-aos="fade-up-right" data-aos-duration="2000">
 
                         <div className="flex relative pb-12">
                             <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
@@ -62,7 +62,7 @@ const Reserve = () => {
                         </div>
                     </div>
 
-                    <div className="w-96 h-96 lg:w-96 md:w-32 lg:ml-0 ml-8 md:ml-12 lg:mt-0 mt-8" data-aos="fade-up-left" data-aos-duration="2000">
+                    <div className="w-96 h-96 lg:w-96 md:w-32 lg:ml-0 ml-8 md:ml-12 xl:ml-4 lg:mt-0 mt-8" data-aos="fade-up-left" data-aos-duration="2000">
                         <div className="bg-white lg:w-full w-72 h-96 rounded-lg shadow-2xl flex justify-center">
                             <div className="flex flex-col">
                                 <img src={greece} className="lg:w-80 w-60 h-52 rounded-lg mt-4" alt="vacation site" />

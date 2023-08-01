@@ -56,9 +56,9 @@ const Testimonial = () => {
           <h1 className="text-brandColor text-2xl font-bold">Testimonials</h1>
           <p>What users say about Liberty Tours and Guides</p>
         </section>
-        <section className="flex flex-wrap lg:px-2 px-4 lg:-m-10 -m-4 lg:my-4">
+        <section className="flex flex-wrap lg:px-2 px-4 xl:px-0 lg:-m-10 -m-4 lg:my-4">
           {courseCards.map((card, index) => (
-            <div className="p-4 md:w-1/2 lg:w-1/4 w-full" key={index} data-aos="flip-up" data-aos-duration="2000">
+            <div className="p-4 xl:p-2 md:w-1/2 lg:w-1/4 w-full" key={index} data-aos="flip-up" data-aos-duration="2000">
               <figure className="h-full rounded-2xl overflow-hidden shadow-md">
                 <img src={card.imageSrc} className="w-24 h-24 flex container mx-auto justify-center mt-4 object-cover object-center rounded-full" alt="" />
                 <div className="py-2 px-3">
@@ -74,7 +74,7 @@ const Testimonial = () => {
           ))}
         </section>
         <section className="mt-6 flex justify-center">
-          <button className="border-2 border-brandColor py-2 px-5 text-brandColor rounded-full text-center">View all</button>
+          <button className="border-2 border-brandColor py-2 lg:px-6 px-5 text-brandColor rounded-full text-center">View all</button>
         </section>
       </section>
     </>

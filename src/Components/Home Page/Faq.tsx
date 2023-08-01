@@ -21,18 +21,17 @@ const Faq = () => {
 
   return (
     <>
+      <section className="text-center px-4 flex justify-center">
+        <p className="bg-blue-200 text-brandColor lg:text-lg text-sm py-2 px-4 font-semibold rounded-full">Frequently Asked Questions</p>
+      </section>
       <div className="accordion-style" id="faq">
-        {/* <h2 className="accordion-heading">Frequently Asked Questions</h2> */}
-        <section className="container mx-auto flex justify-center text-center px-4 lg:ml-36 lg:mb-8 md:mb-4 mb-1">
-          <p className="bg-blue-200 text-brandColor lg:text-lg text-sm py-2 px-4 font-semibold rounded-full">Frequently Asked Questions</p>
-        </section>
         <div className="accordion-container">
           {Question.map((item: FAQItem, index: number) => (
             <React.Fragment key={index}>
               <div className="accordion-item" onClick={() => toggle(index)}>
                 <h1 className="accordion-question">{item.question}</h1>
                 <span className="accordion-icon">
-                  {clicked === index ? <FaAngleUp/> : <FaAngleDown />}
+                  {clicked === index ? <FaAngleUp /> : <FaAngleDown />}
                 </span>
               </div>
               {clicked === index && (
