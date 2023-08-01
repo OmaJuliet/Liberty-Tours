@@ -2,7 +2,7 @@ const TourData = [
   {
     id: 1,
     name: 'Victoria Falls Bridge',
-    location: 'South Africa',
+    location: 'Southern Africa',
     image: '../MainPage Images/destination/africa2.jpg',
     category: 'Southern Africa',
     price: '$1000',
