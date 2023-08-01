@@ -7,7 +7,7 @@ import Partner from "../Components/Home Page/Partner";
 import Reserve from "../Components/Home Page/Reserve";
 import GalleryBlog from "../Components/Home Page/GalleryBlog";
 import Faq from "../Components/Home Page/Faq";
-import Features from "../Components/Home Page/Features";
+// import Features from "../Components/Home Page/Features";
 import Subscribe from "../Components/Home Page/Subscribe";
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
           <Hero />
           <Partner />
           <Reserve />
-          <Features />
+          {/* <Features /> */}
           <GalleryBlog />
           <Testimonial />
           <Faq />

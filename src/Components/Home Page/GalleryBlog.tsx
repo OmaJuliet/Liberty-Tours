@@ -38,8 +38,8 @@ const GalleryBlog = () => {
   return (
     <>
     {isSmallScreen ? (
-        <div className="my-12"> 
-            <p className="text-center text-black font-bold text-xl">Smaller screen size design for the "Gallery" page is still a work in progress</p>
+        <div className="my-1"> 
+            <p className="text-center text-black font-bold text-xl"></p>
         </div>
       ) : (
       <>

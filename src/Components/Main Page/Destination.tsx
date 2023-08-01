@@ -292,22 +292,22 @@ const Destination = () => {
 
           {showModal && selectedDestination && (
             <div className="fixed top-0 left-0 w-screen h-screen bg-gray-800 bg-opacity-75 flex justify-center items-center">
-              <div className="bg-white lg:w-3/4 lg:h-5/6 w-96 rounded-lg p-6 relative">
+              <div className="bg-white lg:w-3/4 lg:h-5/6 w-96 rounded-lg lg:p-6 p-4 relative">
                 {/* Modal content */}
-                <img src={selectedDestination.image} alt={selectedDestination.name} className="w-full h-72 object-cover mb-4 rounded-lg" />
-                <h1 className="text-2xl font-bold mb-2">{selectedDestination.name}</h1>
-                <p className="text-lg mb-2">Location: {selectedDestination.location}</p>
-                <p className="text-lg">{selectedDestination.info}</p>
-                <p className="text-lg mb-4">Cordinates: {selectedDestination.coor}</p>
-                <div className="flex flex-row justify-between mb-2">
-                  <p className="text-lg italic">Estimated tour budget per individual: <span className="font-medium text-lg">{selectedDestination.price}</span></p>
+                <img src={selectedDestination.image} alt={selectedDestination.name} className="w-full h-64 object-cover lg:mb-4 mb-2 rounded-lg" />
+                <h1 className="text-2xl font-bold lg:mb-2 mb-0">{selectedDestination.name}</h1>
+                <p className="lg:text-xl text-sm mb-2">Location: {selectedDestination.location}</p>
+                <p className="lg:text-xl text-sm">{selectedDestination.info}</p>
+                <p className="lg:text-xl text-sm lg:mb-4 mb-2">Cordinates: {selectedDestination.coor}</p>
+                <div className="flex lg:flex-row flex-col justify-between mb-2">
+                  <p className="lg:text-xl text-sm italic">Estimated tour budget per individual: <span className="font-medium text-lg">{selectedDestination.price}</span></p>
                   <button
-                    className="bg-blue-400 text-white p-2 rounded-lg hover:bg-white hover:text-blue-400 hover:border-2 hover:border-blue-400"
+                    className="bg-blue-400 text-white p-2 lg:mt-0 mt-3 rounded-lg hover:bg-white hover:text-blue-400 hover:border-2 hover:border-blue-400"
                     onClick={handlePurchaseTicket}>
                     Purchase ticket
                   </button>
                 </div>
-                <button onClick={closeModal} className="absolute top-3 right-2 focus:outline-none">
+                <button onClick={closeModal} className="absolute lg:top-3 top-1 lg:right-2 right-1 focus:outline-none">
                   <svg className="w-5 h-5 text-gray-600 hover:text-gray-800 font-semibold" fill="currentColor" viewBox="0 0 20 20">
                     <path
                       fillRule="evenodd"
